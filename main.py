@@ -11,7 +11,6 @@ app = Flask(__name__)
 cors = CORS(app)
 
 
-app.config["DEBUG"] = True
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.after_request
