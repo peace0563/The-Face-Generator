@@ -4,7 +4,7 @@ import PIL
 from flask_cors import CORS, cross_origin
 from io import BytesIO
 import base64
-import pretrained_example  generate_random_image
+import pretrained_example
 
 
 app = Flask(__name__)
